@@ -23,7 +23,6 @@
 		E9A9C75018B45E060008A4B4 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A9C74E18B45E060008A4B4 /* TipViewController.xib */; };
 		E9A9C75418B479A80008A4B4 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A9C75218B479A80008A4B4 /* SettingsViewController.m */; };
 		E9A9C75518B479A80008A4B4 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A9C75318B479A80008A4B4 /* SettingsViewController.xib */; };
-		E9A9C75818B557610008A4B4 /* SAMGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A9C75718B557610008A4B4 /* SAMGradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +58,6 @@
 		E9A9C75118B479A80008A4B4 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		E9A9C75218B479A80008A4B4 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		E9A9C75318B479A80008A4B4 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
-		E9A9C75618B557610008A4B4 /* SAMGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMGradientView.h; sourceTree = "<group>"; };
-		E9A9C75718B557610008A4B4 /* SAMGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMGradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +127,6 @@
 				E9A9C75118B479A80008A4B4 /* SettingsViewController.h */,
 				E9A9C75218B479A80008A4B4 /* SettingsViewController.m */,
 				E9A9C75318B479A80008A4B4 /* SettingsViewController.xib */,
-				E9A9C75618B557610008A4B4 /* SAMGradientView.h */,
-				E9A9C75718B557610008A4B4 /* SAMGradientView.m */,
 			);
 			path = tipcalculator;
 			sourceTree = "<group>";
@@ -262,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9A9C75818B557610008A4B4 /* SAMGradientView.m in Sources */,
 				E9A9C72E18B45D2B0008A4B4 /* AppDelegate.m in Sources */,
 				E9A9C74F18B45E060008A4B4 /* TipViewController.m in Sources */,
 				E9A9C72A18B45D2B0008A4B4 /* main.m in Sources */,
@@ -471,6 +465,7 @@
 				E9A9C74818B45D2B0008A4B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9A9C74918B45D2B0008A4B4 /* Build configuration list for PBXNativeTarget "tipcalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +474,7 @@
 				E9A9C74B18B45D2B0008A4B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

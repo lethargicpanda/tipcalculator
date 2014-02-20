@@ -8,7 +8,6 @@
 
 #import "TipViewController.h"
 #import "SettingsViewController.h"
-#import "SAMGradientView.h"
 
 @interface TipViewController ()
 
@@ -35,27 +34,6 @@ NSString *currencySign;
     if (self) {
         // Custom initialization
         self.title = @"Tip Calculator";
-
-        // Initialize a gradient view
-        SAMGradientView *gradientView = [[SAMGradientView alloc] initWithFrame:CGRectMake(20.0f, 20.0f, 280.0f, 280.0f)];
-        
-        gradientView = [[SAMGradientView alloc] initWithFrame:CGRectMake(20.0f, 20.0f, 280.0f, 280.0f)];
-        
-        // Set the gradient colors
-        gradientView.gradientColors = @[[UIColor purpleColor], [UIColor blueColor]];
-        
-        // Optionally set some locations
-        gradientView.gradientLocations = @[@0.4, @1.0];
-        
-        // Optionally change the direction. The default is vertical.
-        gradientView.gradientDirection = SAMGradientViewDirectionVertical;
-        
-        // Add some borders too if you want
-        gradientView.topBorderColor = [UIColor redColor];
-        gradientView.bottomBorderColor = [UIColor blueColor];
-        
-        // Add it as a subview in all of its awesome
-        [self.viewTest addSubview:gradientView];
 
     }
     
