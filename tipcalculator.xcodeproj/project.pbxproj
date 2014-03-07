@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90D517B18C99E310057C671 /* SAMGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E90D517A18C99E310057C671 /* SAMGradientView.m */; };
 		E9A9C71E18B45D2B0008A4B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A9C71D18B45D2B0008A4B4 /* Foundation.framework */; };
 		E9A9C72018B45D2B0008A4B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A9C71F18B45D2B0008A4B4 /* CoreGraphics.framework */; };
 		E9A9C72218B45D2B0008A4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A9C72118B45D2B0008A4B4 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E90D517918C99E310057C671 /* SAMGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMGradientView.h; sourceTree = "<group>"; };
+		E90D517A18C99E310057C671 /* SAMGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMGradientView.m; sourceTree = "<group>"; };
 		E9A9C71A18B45D2B0008A4B4 /* tipcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A9C71D18B45D2B0008A4B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E9A9C71F18B45D2B0008A4B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,6 +130,8 @@
 				E9A9C75118B479A80008A4B4 /* SettingsViewController.h */,
 				E9A9C75218B479A80008A4B4 /* SettingsViewController.m */,
 				E9A9C75318B479A80008A4B4 /* SettingsViewController.xib */,
+				E90D517918C99E310057C671 /* SAMGradientView.h */,
+				E90D517A18C99E310057C671 /* SAMGradientView.m */,
 			);
 			path = tipcalculator;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90D517B18C99E310057C671 /* SAMGradientView.m in Sources */,
 				E9A9C72E18B45D2B0008A4B4 /* AppDelegate.m in Sources */,
 				E9A9C74F18B45E060008A4B4 /* TipViewController.m in Sources */,
 				E9A9C72A18B45D2B0008A4B4 /* main.m in Sources */,
